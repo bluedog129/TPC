@@ -27,5 +27,4 @@ public class TPC11 {
 		System.out.println(b2.page+"\t");
 		
 	}
-
 }
