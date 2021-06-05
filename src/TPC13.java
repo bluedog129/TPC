@@ -12,6 +12,7 @@ public class TPC13 {
 		BookDTO dto;  // 현재 dto는 객체(object)상태.. 아직 인트턴스를 가리키고 있지 않기 때문
 		dto = new BookDTO(title, price, company, page); // 이제 dto는 힙영역에 생성된 BookDTO를 가리키고 있으므로 인스턴스 상태이다
 		
+		
 		bookPrint(dto);
 		
 	}
