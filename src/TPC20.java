@@ -19,6 +19,6 @@ public class TPC20 { // eat() { ? }
 		
 		ani = new Cat();
 		ani.eat();
-		((Cat)ani).night(); // downcastiong(강제 형변환)
+		((Cat)ani).night(); // downcasting(강제 형변환)
 	}
 }
