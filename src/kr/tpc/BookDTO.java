@@ -18,6 +18,4 @@ public class BookDTO {
 		this.company = company;
 		this.page = page;
 	}
-	
-	
 }
