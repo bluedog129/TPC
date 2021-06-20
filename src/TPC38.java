@@ -18,5 +18,4 @@ public class TPC38 {
 			System.out.println(vo.title+"\t"+vo.price+"\t"+vo.company+"\t"+vo.page);
 		}
 	}
-
 }
