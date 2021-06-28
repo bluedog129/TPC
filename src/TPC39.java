@@ -30,5 +30,4 @@ public class TPC39 {
 		String s2 = String.valueOf(v2);
 		System.out.println(s1 + s2);
 	}
-
 }
