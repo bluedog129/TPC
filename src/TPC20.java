@@ -14,6 +14,9 @@ public class TPC20 { // eat() { ? }
 		c.night();
 		
 		// Animal 부모클래스 사용.
+		// 변수가 부모클래스의 객체를 우선 가리킨다.
+		// 그리고 서로 상속관계에 있기 때문에 Dog가 extend되어
+		// 오버라이드된 메서드를 동작시킬때 Dog에 접근할 수 있다.
 		Animal ani = new Dog(); // upcasting(자동 형변환)
 		ani.eat();
 		
