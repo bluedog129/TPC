@@ -6,6 +6,6 @@ public class Animal {
 		System.out.println("?"); // 포괄적, 추상적
 	}
 	public Animal() {
-		super(); //new Object()
+		super(); //new Object() Object클래스는 취상위 클래스
 	}
 }

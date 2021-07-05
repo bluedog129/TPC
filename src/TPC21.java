@@ -13,7 +13,7 @@ public class TPC21 {
 		c.night();
 		
 		// Dog.class, Cat.class
-		Animal ani =new Dog(); // upcasting
+		Animal ani =new Dog(); // up casting (동적 바인딩)
 		ani.eat();
 		
 		ani = new Cat();
@@ -21,8 +21,8 @@ public class TPC21 {
 		//ani.night();
 		//Cat cc = (Cat)ani;
 		//cc.night();
-		((Cat)ani).night();   // downcasting
+		((Cat)ani).night();   // down casting
+		
 		
 	}
-
 }
