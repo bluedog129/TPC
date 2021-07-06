@@ -12,12 +12,14 @@ public class TPC23 {
 			display(c);
 			
 	}
-											//upcasting
+											//up casting
 	private static void display(Animal r) { // 다형성 인수
 			r.eat();
-			//r.night();
+			
+			// instance of : Cat 타입으로 만들어진 변수이면 true 아니면 false를 반환한다.
+			// 따라서 Cat 타입의 변수인 경우만 down casting이 가능하다.
 			if( r instanceof Cat) {
-				((Cat)r).night();  // downcasting
+				((Cat)r).night();  // down casting
 			}
 	}
 }
